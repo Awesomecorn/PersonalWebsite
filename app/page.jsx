@@ -1,4 +1,5 @@
  import LikeButton from "./likebutton";
+import NavBar from "./navBar";
 function Header({ title }) {
   return <h1>{title ? title : 'Default title'}</h1>;
 }
@@ -9,6 +10,7 @@ export default function HomePage() {
  
   return (
     <div>
+    <NavBar />
       <Header title="Cornelius Pavlic's Website" />
       <ul>
         {names.map((name) => (
