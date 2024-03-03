@@ -6,3 +6,14 @@ Building my personal website, my goal for this project is to both demonstrate my
 
 Today I did the Next.js tutorial, and updated node on my computer to run. Here is the website after finishing the tutorial and tweaking it. ![Website Day 1](./ScreenShots/day1.png)
 
+## Day 2 March 1st 2024
+
+Today I only did 30 minutes of coding I did install styled components and got the page to change colors as well as getting some links set up
+
+## Day 3 March 2nd 2024
+
+Girlfriend was in town and didn't do any coding
+
+## Day 4 March 3rd 2024
+
+Created a Kanban board with a list of issues to complete

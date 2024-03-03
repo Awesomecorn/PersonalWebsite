@@ -1,23 +1,27 @@
- import LikeButton from "./likebutton";
-import NavBar from "./navBar";
-function Header({ title }) {
-  return <h1>{title ? title : 'Default title'}</h1>;
-}
- 
+ 'use client'
+import NavBar from "../components/navBar";
+import {BrowserRouter as Router} from "react-router-dom";
+import {Routes} from "react-router-dom";
+import {Route} from "react-router-dom";
+ import Home from "../pages/home";
+ import About from "../pages/about";
+import Projects from "../pages/projects";
+
 export default function HomePage() {
-  const names = ['Programming', 'Skills', 'Projects'];
- 
- 
   return (
-    <div>
+    <nav>
     <NavBar />
-      <Header title="Cornelius Pavlic's Website" />
-      <ul>
-        {names.map((name) => (
-          <li key={name}>{name}</li>
-        ))}
-      </ul>
-          <LikeButton />
-    </div>
+    </nav>
   );
 }
+
+
+
+{/* <Router>
+  <NavBar />
+  <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+        </Routes>
+</Router> */}
